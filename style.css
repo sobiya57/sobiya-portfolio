@@ -1,0 +1,27 @@
+/* Smooth card hover */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.25);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(90deg, #6366f1, #22d3ee);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Button hover glow */
+.glow-btn:hover {
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.7);
+}
+
+/* Section spacing fix for navbar */
+section {
+  scroll-margin-top: 80px;
+}
